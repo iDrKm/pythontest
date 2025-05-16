@@ -48,8 +48,3 @@ def calcu():
                 print("Opcion invalida")
             
 calcu()
-
-
-
-def azarN():
-    num=random.randint
