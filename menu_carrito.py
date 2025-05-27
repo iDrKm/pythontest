@@ -17,7 +17,7 @@ def usuario():
 
 def comprar():
     total=0
-    cant=int(input("Cunatos productos llevara?  "))
+    cant=int(input("Cuantos productos llevara?  "))
     for i in range(cant):
         print("""
         "Que producto llevará?"
@@ -52,7 +52,7 @@ def comprar():
 
 
 def boleta(total):
-
+    
     print("el total neto es ", total) 
     print("el total mas iva es ", total*1.19)   
 
